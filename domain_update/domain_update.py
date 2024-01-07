@@ -5,10 +5,10 @@ def update_domain(email, new_domain, old_domain):
         return new_email
     return email
 
-emails = ['james@outlook.com', 'marycook@yahoo.com', 'joseph@outlook.com', 'janedoe@gmail.com', 'johndoe@hotmail.com']
+emails = ['james@olddomain.com', 'marycook@olddomain1.com', 'joseph@veryold.com', 'janedoe@gmail.com', 'johndoe@oldhotm.com']
 new_emails = []
 
-old_domains = ['outlook.com', 'yahoo.com', 'hotmail.com', 'aol.com']
+old_domains = ['olddomain', 'olddomain1', 'oldhotm.com', 'veryold.com']
 for old_domain in old_domains:
     for email in emails:
         if old_domain in email:

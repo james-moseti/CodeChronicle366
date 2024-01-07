@@ -53,6 +53,11 @@ if __name__ == '__main__':
         if choice == 7:
             break
 
+        elif choice not in range(1, 7):
+            print("\nInvalid choice. Please enter a number between 1-6")
+            choice = int(input("\nEnter any number between 1-6(7 to quit): "))
+            
+
         firstNumber = float(input("\nEnter the first number: "))
         secondNumber = float(input("Enter the second number: "))
         my_calculator = Calculator(firstNumber, secondNumber)
@@ -93,3 +98,8 @@ if __name__ == '__main__':
                 print("\nMODULUS")
                 remainder = my_calculator.modulus()
                 print(f"The remainder of dividing {firstNumber} by {secondNumber} is: {remainder}")
+
+            # case _:       # We dont need this case because we have already handled the default case
+            #     # The underscore is used to define the default case
+            #     print("\nInvalid choice. Please enter a number between 1-6")
+            #     break

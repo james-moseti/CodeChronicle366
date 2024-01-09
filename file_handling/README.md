@@ -1,2 +1,2 @@
 ## :rocket: Introduction
-A simple script that defines functions that enable opening, writing 'w', reading 'r' and appending 'a' to either existing file or creates a new file if the file does not exist. 
+A simple script that defines functions that enable opening, writing 'w', reading 'r' and appending 'a' to either existing file or creates a new file if the file does not exist. File handling is a fundamental concept in Python. Take care when using the writing function. If you write to a file that already exists in memory, the existing file will be replaced by the new or recent file you have created. 

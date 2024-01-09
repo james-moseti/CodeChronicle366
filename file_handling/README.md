@@ -1,2 +1,2 @@
 ## :rocket: Introduction
-A simple script that defines writing, reading, appending as file handling operations. 
+A simple script that defines functions that enable opening, writing 'w', reading 'r' and appending 'a' to either existing file or creates a new file if the file does not exist. 

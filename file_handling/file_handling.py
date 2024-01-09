@@ -10,9 +10,12 @@ def write_file(filename, content):
 
 def read_file(filename):
     """Read content from existing file."""
-    with open(filename, "r") as file_object:
-        content = file_object.read()
-        return content
+    try:
+        with open(filename, "r") as file_object:
+            content = file_object.read()
+            return content
+    except FileNotFoundError:
+        return f"'{filename}' does not exist."
 
 
 def append_file(filename, content):

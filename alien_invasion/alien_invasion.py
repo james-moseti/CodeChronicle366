@@ -12,7 +12,7 @@ class AlienInvasion():
         self.settings = Settings()
         self.screen = pygame.display.set_mode((self.settings.screen_width, self.settings.screen_height))
         # Below is an implementation of the fullscreen mode of the game but I personally didn't want to use it. 
-        # self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN) # Defines the dimensions of the game window also surface
+        # self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN) # Defines the dimensions of the game window also surface. 
         # self.settings.screen_width = self.screen.get_rect().width
         # self.settings.screen_height = self.screen.get_rect().height
         pygame.display.set_caption("Alien Invasion")

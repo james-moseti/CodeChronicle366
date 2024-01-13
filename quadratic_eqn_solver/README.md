@@ -9,20 +9,21 @@ This program solves quadratic equations of the form ax^2 + bx + c = 0.
 - Python 3.x
 
 ## Installation
+1. Fork the repository by clicking on the "Fork" button at the top right corner of the repository page.
 
-1. Clone the repository:
+2. Clone the forked repository to your local machine:
 
     ```bash
-    git clone https://github.com/james-moseti/quadratic_eqn_solver.git
+    git clone https://github.com/your-username/quadratic_eqn_solver.git
     ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
     ```bash
     cd quadratic_eqn_solver
     ```
 
-3. Run the program:
+4. Run the program:
 
     ```bash
     python quadratic_eqn_solver.py

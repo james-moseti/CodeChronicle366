@@ -9,7 +9,6 @@ This is a simple timer project implemented in Python.
 - Set a specific duration for the timer.
 - Start, pause, and reset the timer.
 - Display the remaining time in a user-friendly format.
-- Play a sound when the timer reaches zero.
 
 ## Usage
 

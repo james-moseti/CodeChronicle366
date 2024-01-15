@@ -14,7 +14,7 @@ This program solves quadratic equations of the form ax^2 + bx + c = 0.
 2. Clone the forked repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/quadratic_eqn_solver.git
+    git clone https://github.com/your-username/CodeChronicle366.git
     ```
 
 3. Navigate to the project directory:

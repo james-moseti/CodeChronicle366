@@ -17,6 +17,7 @@ class Settings():
         
         # Set the ship's speed
         self.ship_speed = 3
+        self.ship_limit = 3
         
         # Set the alien's speed
         self.alien_speed = 1.0

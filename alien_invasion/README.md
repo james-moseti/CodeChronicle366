@@ -1,6 +1,6 @@
 # Alien Invasion
 
-![Gameplay Screenshot](images/alien_invasion_v1.png)
+![Gameplay Screenshot](images/screenshot.png)
 
 ## Description
 Alien Invasion is a simple 2D space shooter game built using Python and Pygame. The objective of the game is to control a spaceship and shoot down waves of alien invaders.
@@ -30,8 +30,6 @@ Alien Invasion is a simple 2D space shooter game built using Python and Pygame. 
 ## Controls
 - Use the arrow keys to move the spaceship
 - Press the spacebar to shoot bullets
-
-![In game screenshot](images/alien_invasion_v2.png)
 
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.

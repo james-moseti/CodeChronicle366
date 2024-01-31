@@ -6,7 +6,7 @@ from bullet import Bullet
 from alien import Alien
 from time import sleep
 from game_stats import Gamestats
-from button import Button
+# from button import Button
 
 class AlienInvasion():
     """Overall class to manage game assets and behavior. """
@@ -27,24 +27,23 @@ class AlienInvasion():
         self.bullets = pygame.sprite.Group()
         self._create_fleet()
         
-        # Start Alien Invasion in an active state. 
-        self.game_active = False
+        # # Start Alien Invasion in an active state. 
+        # self.game_active = False
         
-        # Create an instance to represent game statistics. 
-        self.stats = Gamestats(self)
+        # # Create an instance to represent game statistics. 
+        # self.stats = Gamestats(self)
         
-        # Make the play button
-        self.play_button = Button(self, "Play")
+        # # Make the play button
+        # self.play_button = Button(self, "Play")
 
     def run_game(self):
         # Start the main loop for the game. 
         while True:
             self._check_events()    # Refactored our code to make it more manageable
             self._update_screen()   # Helps to keep our run_game() method clean and easy to read
-            if self.game_active:
-                self.ship.update()
-                self._update_bullets()           
-                self._update_aliens()
+            self.ship.update()
+            self._update_bullets()           
+            self._update_aliens()
                 
             self.clock.tick(60)
             
@@ -168,9 +167,9 @@ class AlienInvasion():
         for bullet in self.bullets.sprites():
             bullet.draw_bullet()
         
-        # Draw the play button if the game is inactive. 
-        if not self.game_active:
-            self.play_button.draw_button()
+        # # Draw the play button if the game is inactive. 
+        # if not self.game_active:
+        #     self.play_button.draw_button()
                     
         # Make the most recently drawn screen visible.
         pygame.display.flip()

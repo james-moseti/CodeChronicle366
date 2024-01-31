@@ -2,7 +2,10 @@
     "cSpell.words": [
         "blit",
         "blitme",
+        "groupcollide",
+        "keydown",
         "keypresses",
+        "keyup",
         "midbottom",
         "spacebar"
     ]

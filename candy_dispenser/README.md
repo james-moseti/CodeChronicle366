@@ -1,0 +1,2 @@
+## Candy Stack Dispenser
+A fun and interactive Candy Stack Dispenser application built with Python's Tkinter library. This program simulates a stack data structure with candy elements, allowing users to perform operations like Push, Pop, Peek, and more. It also features a graphical representation of the stack, complete with colorful candies and a dynamic spring mechanism.
